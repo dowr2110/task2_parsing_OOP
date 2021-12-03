@@ -1,0 +1,11 @@
+---
+type_product: "//*[@class = 'attribute_radio_list pundaline-variations']/*"
+name: '//h1[@class="product_main_name"]'
+weight: 'span.radio_label'
+image: '//img[@id="bigpic"]/@src'
+price: 'span.price_comb'
+product_container: '//div[@class = "product-container"]'
+product_desc: "//div[@class='product-desc display_sd']/a/@href"
+pagination: "//ul[contains(@class, 'pagination')]/li[position() = (last() - 1)]/a/span/text()"
+URL: "https://www.petsonic.com/farmacia-para-gatos/"
+FILENAME: "final_result.csv"
